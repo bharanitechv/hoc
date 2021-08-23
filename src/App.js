@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Category from "./components/Category";
+import CustomCard from "./bootstrap-test/CustomCard";
 
 function App() {
   return (
     <div className="App">
-      <Category name="test data"/>
+      <CustomCard />
     </div>
   );
 }
